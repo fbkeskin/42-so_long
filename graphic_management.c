@@ -6,7 +6,7 @@
 /*   By: fatkeski <fatkeski@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 21:10:48 by fatkeski          #+#    #+#             */
-/*   Updated: 2024/05/04 17:46:09 by fatkeski         ###   ########.fr       */
+/*   Updated: 2024/05/04 19:46:02 by fatkeski         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,7 +90,7 @@ void	create_game_interface(t_game *game)
 	if (!(game->mlx))
 		print_error_message("Error: mlx cannot initialized\n", game);
 	game->mlx_window = mlx_new_window((game->mlx), (game->map->width * 64),
-			(game->map->height * 64), "window_name");
+			(game->map->height * 64), "so_long");
 	if (!(game->mlx_window))
 		print_error_message("Error: mlx window cannot initialized\n", game);
 	init_img_to_mlx(game);
