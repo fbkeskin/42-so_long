@@ -6,7 +6,7 @@
 /*   By: fatkeski <fatkeski@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 21:10:29 by fatkeski          #+#    #+#             */
-/*   Updated: 2024/05/04 16:05:57 by fatkeski         ###   ########.fr       */
+/*   Updated: 2024/05/04 19:29:20 by fatkeski         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ void	free_map(char **map)
 void	print_error_message(char *error_message, t_game *game)
 {
 	ft_printf(error_message);
-	ft_printf("\n");
 	free_map(game->map->vector);
 	exit(EXIT_FAILURE);
 }

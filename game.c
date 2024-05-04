@@ -6,7 +6,7 @@
 /*   By: fatkeski <fatkeski@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/03 21:10:37 by fatkeski          #+#    #+#             */
-/*   Updated: 2024/05/04 16:42:33 by fatkeski         ###   ########.fr       */
+/*   Updated: 2024/05/04 19:37:19 by fatkeski         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ static int	move(t_game *game, int step_x, int step_y)
 		+ step_x];
 	if (next != WALL)
 	{
+		(game->move_count)++;
+		ft_printf("movement: %d\n", game->move_count);
 		if (next == COLLECTIBLE)
 			game->collectible_count--;
 		if (current != EXIT)
@@ -55,8 +57,6 @@ int	key_handler(int key_code, t_game *game)
 		move_response = move(game, -1, 0);
 	else
 		return (0);
-	(game->move_count)++;
-	ft_printf("movement: %d\n", game->move_count);
 	if (move_response == 1)
 	{
 		ft_printf("###   YOU WON THE GAME TOTAL %d STEPS!   ###\n",
