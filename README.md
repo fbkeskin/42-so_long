@@ -54,7 +54,7 @@ movement: 177
 ###   YOU WON THE GAME TOTAL 177 STEPS!   ###
 
 $>./so_long map_files/mult_exit.ber
-Error: Error: number of components is incorrect
+Error: number of components is incorrect
 
 $>./so_long gün "uzaklarda bir yerlerde güneşler doğuyor.ber" 
 Error: not ber file
