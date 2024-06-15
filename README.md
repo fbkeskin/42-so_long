@@ -25,7 +25,7 @@
 1. Repo'yu clone'layın: 
 
 ```bash
-git clone linkk
+git clone https://github.com/fbkeskin/42-so_long.git
 ```
 
 2. Makefile'ı kullanarak source kodu derleyin:
