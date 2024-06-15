@@ -6,7 +6,7 @@
   Now the fool seeks to return to the past and undo the future that is Aku."
   <br>   <br>
 
-  <img src="https://raw.githubusercontent.com/fbkeskin/System-Programming-2024/master/so_long_gif-ezgif.com-video-to-gif-converter%20(2).gif?token=GHSAT0AAAAAACF7SLY62H5LXGCANYLLKKLMZTLL6FA"/>
+  <img src="https://raw.githubusercontent.com/fbkeskin/fbkeskin/master/imgs/gif_samurai.gif"/>
   
   <p align="center">
 	<h4>And thanks for all the fish!<br>
