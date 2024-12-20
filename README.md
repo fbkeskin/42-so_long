@@ -56,7 +56,7 @@ movement: 177
 $>./so_long map_files/mult_exit.ber
 Error: number of components is incorrect
 
-$>./so_long "uzaklarda bir yerlerde güneşler doğuyor.ber" 
+$>./so_long "uzaklarda bir yerlerde güneşler doğuyor.reb" 
 Error: not ber file
 
 $>./so_long gün dönence dönence
